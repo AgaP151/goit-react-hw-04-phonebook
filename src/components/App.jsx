@@ -3,9 +3,9 @@ import { nanoid } from 'nanoid';
 import Notiflix from 'notiflix';
 
 import { Container, MainHeader, SubHeader } from './App.styled';
-import { useLocalStorage } from 'hooks/useLocalStorage';
-import { defaultContacts } from 'utils/defaultContact';
-import { notifySettings } from 'utils/notifySettings';
+import { useLocalStorage } from '../hooks/useLocalStorage';
+import { defaultContacts } from '../utils/defaultContact';
+import { notifySettings } from '../utils/notifySettings';
 import { ContactForm } from './ContactForm/ContactForm';
 import { Filter } from './Filter/Filter';
 import { ContactList } from './ContactList/ContactList';
